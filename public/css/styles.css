@@ -1,16 +1,23 @@
 
-body {
-  background-color: #E8ECEF;
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
+body{
+  background: linear-gradient(to right, #2c3e50, #4ca1af);}
 
 .centered {
     padding-top: 200px;
-    text-align: center;
+    text-align: center;  
+    background: linear-gradient(to right, #2c3e50, #4ca1af);
 }
 
-.secret-text {
+.text {
   text-align: center;
   font-size: 2rem;
-  color: #fff;
-  background-color: #000;
+  color: black;
+}
+.text-center{
+  background: linear-gradient(to right, #2c3e50, #4ca1af);
 }
